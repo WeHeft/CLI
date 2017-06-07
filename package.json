@@ -1,0 +1,63 @@
+{
+  "name": "heft",
+  "version": "0.0.1",
+  "description": "Move anything, like a pro. 💪 [WIP]",
+  "author": {
+    "name": "Stefan Aichholzer",
+    "email": "play@analogbird.com",
+    "url": "https://github.com/aichholzer"
+  },
+  "contributors": [],
+  "maintainers": [],
+  "keywords": [
+    "file",
+    "sharing",
+    "moving",
+    "p2p",
+    "sockets",
+    "websockets"
+  ],
+  "homepage": "http://heft.rocks",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WhirIO/heft.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=8"
+  },
+  "dependencies": {
+    "bufferutil": "^3.0.1",
+    "cli-spinner": "^0.2.6",
+    "utf-8-validate": "^3.0.2",
+    "ws": "^3.0.0",
+    "yargs": "^8.0.1"
+  },
+  "devDependencies": {
+    "dotenv": "^4.0.0",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-plugin-import": "^2.3.0",
+    "grunt": "^1.0.1",
+    "grunt-eslint": "^19.0.0",
+    "mocha": "^3.2.0",
+    "should": "^11.2.0"
+  },
+  "main": "./app/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha -R spec -t 5000"
+  },
+  "bugs": {
+    "url": "https://github.com/WhirIO/heft/issues"
+  },
+  "_from": "heft@^0.0.0",
+  "_npmUser": {
+    "name": "aichholzer",
+    "email": "theaichholzer@gmail.com"
+  },
+  "preferGlobal": true,
+  "bin": "./app/index.js"
+}
